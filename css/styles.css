@@ -93,6 +93,7 @@ h3{
 }
 
 .content{
+    flex: 1;
     background-color: #000033;
     color: white;
     display: flex;
@@ -113,11 +114,13 @@ h3{
     width: 115px;
     padding: 3px;
     border: 3px solid cyan;
+    box-shadow: 5px 5px 10px gray;
     border-radius: 6px;
 }
 
 .desc{
     font-size: 15px;
+    padding: 5px 25px;
     font-style: italic;
     text-align: center;
 }
@@ -142,5 +145,35 @@ h3{
     justify-content: center;
     margin: 8px;
 
+}
+
+.review{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.revcont{
+    width: 800px;
+    margin: 40px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment{
+    word-wrap: break-word;
+    font-size: 30px;
+    font-style: italic;
+    color: gray;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.reviewer{
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
 }
 
