@@ -4,7 +4,6 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
-    height: 100vh;
     font-family: Roboto, sans-serif;
 }
 
@@ -38,6 +37,11 @@ h2{
 h3{
     font-size: 18px;
     margin-bottom: 3px;
+}
+
+h4{
+    font-size: 20px;
+    margin: 0px;
 }
 
 #contact{
@@ -78,11 +82,33 @@ h3{
     margin: 18px 0px;
 }
 
+#message{
+    font-size: 14px;
+    margin: 0px;
+}
+
 .header{
     display: flex;
     background-color: #000033;
     justify-content: space-between;
     border-bottom: 5px double cyan;
+}
+
+#msg{
+    border: 2px solid #000033;
+    border-radius: 4px;
+    background-color: cyan;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000033;
+    padding: 12px;
+    width: 100px;
+    transition-duration: 0.4s;
+}
+
+#msg:hover{
+    background-color: #000033;
+    color: cyan;
 }
 
 .nav{
@@ -97,7 +123,7 @@ h3{
     background-color: #000033;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 60px;
 }
@@ -151,11 +177,11 @@ h3{
     display: flex;
     justify-content: center;
     background-color: lightgray;
+    padding: 50px 150px;
 }
 
 .revcont{
-    width: 800px;
-    margin: 40px 70px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -167,13 +193,39 @@ h3{
     font-size: 30px;
     font-style: italic;
     color: gray;
-    text-align: center;
+    text-align: left;
     margin-bottom: 0px;
 }
 
 .reviewer{
     font-size: 20px;
     font-weight: bold;
+    padding-right: 30px;
     align-self: flex-end;
+}
+
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px;
+    height: 150px;
+}
+
+.cta-in{
+    display: flex;
+    background-color: cyan;
+    justify-content: space-around;
+    height: 50px;
+    width: 800px;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.announce{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
